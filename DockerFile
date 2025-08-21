@@ -13,8 +13,7 @@ RUN apt-get update && apt-get install -y build-essential cmake
 # Install the Python packages from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Tell Docker that the container listens on port 7860
-# Hugging Face Spaces uses this port by default
+# Expose the port Hugging Face uses
 EXPOSE 7860
 
 # The command to run your application using Gunicorn
