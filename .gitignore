@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment folder
+venv/
+.venv/
+
+# App-generated data
+data/*
+embeddings/*
+!data/.gitkeep
+!embeddings/.gitkeep
