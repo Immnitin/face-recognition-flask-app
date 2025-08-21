@@ -1,7 +1,7 @@
 ---
-title: My Face App
-emoji: 📊
-colorFrom: purple
+title: Face Recognition App
+emoji: 📉
+colorFrom: red
 colorTo: blue
 sdk: docker
 pinned: false
