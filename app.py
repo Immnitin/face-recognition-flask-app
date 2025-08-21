@@ -694,7 +694,7 @@ def preload_model():
 
 if __name__ == '__main__':
     preload_model()
-    # Use environment variable for port, default to 5000
-    port = int(os.environ.get('PORT', 5000))
+    # Hugging Face Spaces expects port 7860
+    port = int(os.environ.get('PORT', 7860))
     app.run(host='0.0.0.0', port=port, debug=False)
 
